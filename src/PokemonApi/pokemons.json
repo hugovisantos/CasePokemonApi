@@ -1,0 +1,62 @@
+[
+  {
+    "name": "squartle",
+    "height": 0.5,
+    "weight": 9.0,
+    "category": "Tiny Turtle",
+    "type": "WATER",
+    "skills": [ "Torrent" ],
+    "strongAgainst": [ "GROUND", "ROCK", "FIRE" ],
+    "weakAgainst": [ "WATER", "GRASS", "DRAGON" ],
+    "resistantTo": [ "BUG", "STEEL", "WATER" ],
+    "vulnerableTo": [ "GRASS", "ELECTRIC" ],
+    "statistics": {
+      "healthPoints": 200,
+      "attack": 300,
+      "defense": 300,
+      "specialAttack": 200,
+      "specialDefense": 300,
+      "speed": 200
+    }
+  },
+	{
+		"name": "charmander",
+		"height": 0.6,
+		"weight": 8.5,
+		"category": "Lizard",
+		"type": "FIRE",
+		"skills": [ "Blaze" ],
+		"strongAgainst": [ "BUG", "STEEL", "GRASS", "ICE" ],
+		"weakAgainst": [ "WATER", "FIRE", "ROCK", "DRAGON" ],
+		"resistantTo": [ "BUG", "STEEL", "FIRE", "GRASS", "ICE" ],
+		"vulnerableTo": [ "GROUND", "ROCK", "WATER" ],
+		"statistics": {
+			"healthPoints": 200,
+			"attack": 300,
+			"defense": 200,
+			"specialAttack": 300,
+			"specialDefense": 200,
+			"speed": 400
+		}
+	},
+	{
+		"name": "bulbasaur",
+		"height": 0.7,
+		"weight": 6.9,
+		"category": "Seed",
+		"type": "Grass",
+		"skills": [ "Overgrow" ],
+		"strongAgainst": [ "GROUND", "ROCK", "WATER" ],
+		"weakAgainst": [ "FLYING", "POISON", "BUG", "STEEL", "FIRE", "GRASS", "DRAGON" ],
+		"resistantTo": [ "GROUND", "WATER", "GRASS", "ELECTRIC" ],
+		"vulnerableTo": [ "FLYING", "POISON", "BUG", "FIRE", "ICE" ],
+		"statistics": {
+			"healthPoints": 200,
+			"attack": 300,
+			"defense": 200,
+			"specialAttack": 300,
+			"specialDefense": 300,
+			"speed": 300
+		}
+	}
+]
